@@ -34,9 +34,9 @@
 .Navbar-name:hover{
     color: grey;
 }
-.navbar-text:hover{
-    
-}
+/* .navbar-text:hover{
+
+} */
 .navbar ul li:hover {
     color: gray;
 }

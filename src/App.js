@@ -7,12 +7,21 @@ import About from './pages/About';
 import LeaderBoard from './pages/LeaderBoard';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
-import {
+import {useLocation,
   Route,
   Routes,
   Navigate
 } from "react-router-dom";
-function App() {
+import { useEffect} from 'react';
+
+
+const App=()=> {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    // console.log(location);
+  }, [location]);
+
   return (
     <div className="App">
       <Navbar />
