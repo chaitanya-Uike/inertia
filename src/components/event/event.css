@@ -1,0 +1,34 @@
+.eventBox {
+    position: relative;
+    background-image: url('../../assets/static/roboRace.jpeg');
+    background-size: cover;
+    width: 17rem;
+    height: 15rem;
+    background-color: gray;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    transition: transform 250ms ease-in-out;
+}
+
+.eventBox:hover {
+    transform: translateY(-1rem)
+}
+
+.eventBox .info {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.eventBox .info h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.eventBox .info a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}

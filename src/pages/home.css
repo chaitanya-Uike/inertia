@@ -1,0 +1,37 @@
+.exploreEvents {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 10rem;
+}
+
+.exploreEvents h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.liveTV {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 10rem;
+}
+
+.liveTV h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}

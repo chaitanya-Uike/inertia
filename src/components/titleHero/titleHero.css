@@ -1,0 +1,17 @@
+.titleHero {
+    background: url('../../assets/static/hero.png');
+    box-shadow: inset 0 0 0 2000px #010101a9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleHero .title {
+    font-size: 10rem;
+    text-transform: uppercase;
+}

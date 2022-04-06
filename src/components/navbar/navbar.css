@@ -1,0 +1,32 @@
+:root {
+    --primary-background: #2E2E2E;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 40rem;
+    padding: 1rem 2rem;
+    background-color: var(--primary-background);
+    color: lightgray;
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 5;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    transition: color 250ms ease-in-out;
+}
+
+.navbar ul li:hover {
+    color: gray;
+}

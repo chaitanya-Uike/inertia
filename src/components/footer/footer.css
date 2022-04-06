@@ -1,0 +1,41 @@
+.mainFooter {
+
+    background: linear-gradient(98.64deg, #0E1012 16.72%, #2E2E2E 70.63%);
+    color: white;
+
+}
+
+.footer {
+    height: 30vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer h6 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer .contactDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contactDiv h5 {
+    color: gray;
+}
+
+.divider {
+    border-top: 5px solid #fff
+}
+
+.mainFooter .copyright {
+    text-align: center
+}
