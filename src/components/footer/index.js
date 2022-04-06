@@ -8,16 +8,27 @@ const Footer = () => {
       <div className='footer'>
         <div className='footer-first'>
           <h1 className='footer-inertia'>INERTIA</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+          <p className='footer-inertia-description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+          <div className='footer-social-item'>
+            <div>
+              <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/instagram-new.png" alt=""/>
+            </div>
+            <div>
+            <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/facebook-circled.png" alt=""/>
+            </div>
+            <div>
+            <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png" alt=""/>
+            </div>
+          </div>
         </div>
         <div className='footer-second'>
           <h2 className='footer-menu-heading'>Menu</h2>
           <h6 className='footer-page-link'>About US</h6>
           <h6 className='footer-page-link'>Term of Use</h6>
           <h6 className='footer-page-link'>Privary Policy</h6>
-          {/* <h6 className='footer-page-link'>Order History</h6>
+          <h6 className='footer-page-link'>Order History</h6>
           <h6 className='footer-page-link'>Return policy</h6>
-          <h6 className='footer-page-link'>FAQs</h6> */}
+          {/* <h6 className='footer-page-link'>FAQs</h6> */}
         </div>
         <div className='footer-third'>
           <h2 className='footer-menu-heading'>Contact Us</h2>
@@ -45,17 +56,7 @@ const Footer = () => {
               <p>bohocompany@gmail.com</p>
             </div>
           </div>
-          <div className='footer-social-item'>
-            <div>
-              <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/instagram-new.png" alt=""/>
-            </div>
-            <div>
-            <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/facebook-circled.png" alt=""/>
-            </div>
-            <div>
-            <img className='footer-social-link' src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png" alt=""/>
-            </div>
-          </div>
+          
         </div>
 
         <div>

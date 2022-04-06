@@ -1,40 +1,29 @@
 import React from 'react'
 import TitleHero from '../components/titleHero'
 import './schedule.css'
-import im from '../assets/static/roboRace.jpeg'
+// import im from '../assets/static/roboRace.jpeg'
 
 const data = [
     {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
+        number: "1",
+        eventname: "Roborace",
+        time: "10:00",
     },
     {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
+        number: "2",
+        eventname: "Roborace",
+        time: "10:00",
     },
     {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
+        number: "3",
+        eventname: "Roborace",
+        time: "10:00",
     },
     {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
+        number: "4",
+        eventname: "Roborace",
+        time: "10:00",
     },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "dfasfd",
-    },
-    
 
 ]
 function Schedule() {
@@ -44,20 +33,27 @@ function Schedule() {
                 <TitleHero title="Schedule" />
             </div>
             <div className='schedule-container'>
-                {data.map(( card) => {
-                    return (
-                        <>
-                            <div className='schedule-card'>
-                                <div className=''>
-                                    <img className='schedule-image' src={card.img} alt=''></img>
-                                </div>
-                                <h1 className='schedule-name'>{card.name}</h1>
-                                <a className='schedule-link' href="www.google.com">{card.registerlink}</a>
-                            </div>
-                        </>
-                    )
-                })}
+                <div className='schedule-div'>
+                    {data.map((card) => {
+                        return (
+                            <>
+                                <div className='schedule-individual-box'>
+                                    <div className='schedule-name-div'>
+                                        <h3 className='schedule-postition'>{card.number}</h3>
+                                        <h3>{card.eventname}</h3>
+                                    </div>
+                                    <div>
+                                        <h3>{card.time}</h3>
+                                    </div>
 
+                                </div>
+
+                                <div className='schedule-line'></div>
+                            </>
+                        )
+                    })}
+
+                </div>
             </div>
         </>
 

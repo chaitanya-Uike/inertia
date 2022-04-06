@@ -6,6 +6,7 @@ import Footer from './components/footer'
 import About from './pages/About';
 import LeaderBoard from './pages/LeaderBoard';
 import Schedule from './pages/Schedule';
+import Events from './pages/Events';
 import {
   Route,
   Routes,
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/map" element={<Map />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/event" element={<Events />} />
         <Route exact path="/leaderboard" element={<LeaderBoard />} />
         <Route exact path="/schedule" element={<Schedule />} />
         <Route path="*" element={<Navigate to="/" />} />

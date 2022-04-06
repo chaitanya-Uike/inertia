@@ -4,6 +4,7 @@ import Hero from '../components/hero'
 import EventBox from '../components/event'
 
 import './home.css'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
     return (
