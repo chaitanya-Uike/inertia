@@ -1,41 +1,65 @@
-.mainFooter {
-
-    background: linear-gradient(98.64deg, #0E1012 16.72%, #2E2E2E 70.63%);
+.footer{
+    background-color: #212529;
     color: white;
-
-}
-
-.footer {
-    height: 30vh;
-    padding: 2rem;
+    margin:0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 60px;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+
 }
 
-.footer h3 {
-    font-size: 1.5rem;
-    color: white;
+.footer-first{
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+}
+.footer-inertia{
+    margin: 20px 0;
 }
 
-.footer h6 {
-    margin-top: 0.5rem;
+.footer-second{
+    width: 35%;
+}
+
+.footer-page-link{
+    cursor: pointer;
+    margin-bottom: 15px;
     font-size: 1rem;
-    color: white;
 }
 
-.footer .contactDiv {
+.footer-menu-heading{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.footer-third{
+    width: 30%;
+    text-align: left;
+}
+
+.footer-contact{
     display: flex;
-    flex-direction: column;
+    margin-bottom: 10px;
 }
 
-.footer .contactDiv h5 {
-    color: gray;
+.footer-contact-image{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    /* margin:10px; */
 }
 
-.divider {
-    border-top: 5px solid #fff
+.footer-social-item{
+    display: flex;
+    flex-direction: row;
 }
 
-.mainFooter .copyright {
-    text-align: center
+.footer-social-link{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }

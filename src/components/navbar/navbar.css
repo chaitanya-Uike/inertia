@@ -25,8 +25,18 @@
 .navbar ul li {
     cursor: pointer;
     transition: color 250ms ease-in-out;
+    text-decoration: none;
 }
-
+.Navbar-name{
+    text-decoration: none;
+    color: white;
+}
+.Navbar-name:hover{
+    color: grey;
+}
+.navbar-text:hover{
+    
+}
 .navbar ul li:hover {
     color: gray;
 }

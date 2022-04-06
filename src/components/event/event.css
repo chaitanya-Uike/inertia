@@ -6,9 +6,7 @@
     height: 15rem;
     background-color: gray;
     border-radius: 1rem;
-
     cursor: pointer;
-
     transition: transform 250ms ease-in-out;
 }
 

@@ -1,0 +1,9 @@
+.map-image{
+    height: 600px;
+    width: 80%;
+}
+.map-img-div{
+    display: grid;
+    place-items:center;
+    margin: 100px 0;
+}

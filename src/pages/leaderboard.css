@@ -1,0 +1,59 @@
+.leaderboard-outer-div{
+    /* padding: 100px 300px; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    
+}   
+
+
+
+.leaderboard-div{
+    background-color: #2E2E2E;
+    padding:30px;
+    border-radius: 30px;
+    width: 70%;
+    
+}
+
+.leaderboard-individual-box{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.leaderboard-name-div{
+    display: flex;
+}
+
+.leaderboard-postition{
+    margin-right: 30px;
+}
+.leaderboard-line{
+    height: 3px;
+    background-color: rgb(148, 145, 145);
+}
+
+.leaderboard-position-outer-div{
+    width: 70%;
+}
+
+.leaderboard-your-postion-div{
+    background-color: #76C773;
+    padding:30px;
+    border-radius: 30px;
+}
+.leader-board-your-postion{
+    color: white;
+    margin: 30px 0;
+}
+.leaderboard-individual-box-your-position{
+    color: 043214;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
