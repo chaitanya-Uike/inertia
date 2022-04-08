@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import im from '../assets/static/roboRace.jpeg'
 import TitleHero from '../components/titleHero'
 import './events.css'
@@ -46,9 +47,10 @@ function Events() {
                 <TitleHero title="Events" />
             </div>
             <div className='event-container'>
-                {data.map((card) => {
+                {data.map((card,index) => {
                     return (
                         <>
+                        <Link to={`/event/${index}`}>
                             <div className='event-card'>
                                 <div className=''>
                                     <img className='event-image' src={card.img} alt=''></img>
@@ -56,6 +58,7 @@ function Events() {
                                 <h1 className='event-name'>{card.name}</h1>
                                 <a className='event-link' href="www.google.com">{card.registerlink}</a>
                             </div>
+                            </Link>
                         </>
                     )
                 })}

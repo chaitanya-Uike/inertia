@@ -7,15 +7,12 @@ import About from './pages/About';
 import LeaderBoard from './pages/LeaderBoard';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
-import {useLocation,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
-import { useEffect} from 'react';
+import EventPage from './pages/EventPage/Singleeventpage/EventPage';
+import { useLocation, Route, Routes, Navigate } from "react-router-dom";
+import { useEffect } from 'react';
 
 
-const App=()=> {
+const App = () => {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,6 +29,7 @@ const App=()=> {
         <Route exact path="/event" element={<Events />} />
         <Route exact path="/leaderboard" element={<LeaderBoard />} />
         <Route exact path="/schedule" element={<Schedule />} />
+        <Route exact path="/event/:id" element={<EventPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
