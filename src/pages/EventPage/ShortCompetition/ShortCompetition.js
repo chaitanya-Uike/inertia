@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
-import data from '../../../Data/shortcompetitions'
+import data from './competitiondata'
 import Card from '../../../components/card/card'
 function ShortCompetition() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import data from '../../../Data/Draicplayground'
+import data from './Draicplaygrounddata'
 
 const DRAICplaygroundDetails = () => {
 
