@@ -16,11 +16,16 @@
     font-size: calc(1rem + 10vw);
 }
 
+.hero-button-div{
+    display: flex;
+}
+
 .hero .sub-heading {
     font-size: 2rem;
 }
 
 .hero .exploreBtn {
+    margin: 0 20px;
     margin-top: 3rem;
     padding: 0.5rem 0.75rem;
     background-color: #2E2E2E;
@@ -32,6 +37,7 @@
     cursor: pointer;
     text-decoration: none;
     transition: background-color 250ms ease-in-out;
+    
 }
 
 .hero .exploreBtn:hover {

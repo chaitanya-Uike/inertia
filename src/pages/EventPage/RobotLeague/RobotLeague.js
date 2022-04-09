@@ -7,12 +7,14 @@ function RobotLeague() {
   return (
     <div>
       <TitleHero title="Robot League"></TitleHero>
-      {data.map((card, index) => {
+      <div className='event-container'>
+            {data.map((card, index) => {
         return (
           <Card lnk={"robotleague"} eventName={card.eventName}
             img={card.img} sublnk={index} key={index} name={card.eventName} description={card.description} />
         )
       })}
+      </div>
     </div>
   )
 }

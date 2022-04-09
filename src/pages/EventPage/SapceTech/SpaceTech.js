@@ -10,12 +10,14 @@ function DRAICplayground() {
   return (
     <div>
       <TitleHero title="Space Tech"></TitleHero>
+      <div className='event-container'>
       {data.map((card, index) => {
         return (
           <Card lnk={"spaceTech"} eventName={card.eventName}
             img={card.img} sublnk={index} key={index} name={card.eventName} description={card.description} />
         )
       })}
+      </div>
     </div>
   )
 }
