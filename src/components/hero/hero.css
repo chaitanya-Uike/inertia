@@ -37,3 +37,16 @@
 .hero .exploreBtn:hover {
     background-color: #1c1c1c;
 }
+
+@media(max-width: 500px)
+{
+    .hero .sub-heading{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width: 400px)
+{
+    .hero .sub-heading{
+        font-size: 1.35rem;
+    }
+}
