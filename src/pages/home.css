@@ -54,8 +54,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     margin-top: 10rem;
+    width: 10px;
 }
 
 .liveTV h3 {
