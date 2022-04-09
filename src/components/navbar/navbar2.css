@@ -38,6 +38,10 @@ nav {
     color: white;
 }
 
+.active{
+    color:black;
+}
+
 .btn {
     display: none;
     position: absolute;
