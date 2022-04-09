@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 8rem auto;
+    margin: 5rem auto;
     width: 10px;
     margin-bottom: 2rem;
 }
@@ -62,16 +62,32 @@
 .liveTV h3 {
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    white-space: nowrap;
 }
+
+iframe{
+    width: 60rem;
+    height: 600px;
+}
+
 @media(max-width: 500px)
 {
     .ongoing-events-heading{
         margin: 0px;
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         white-space: nowrap;
+    }
+    iframe
+    {
+        width: 300px;
+        height: 200px;
     }
     .ongoing-events-outer{
         width: 100%;
+        flex-direction: column;
+    }
+    .liveTV{
+        margin-top: 2rem;
     }
 }
 
