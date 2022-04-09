@@ -19,6 +19,7 @@ import DRAICplaygroundDetails from './pages/EventPage/DRAICplayground/DRAICplayg
 
 import { useLocation, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
+import RobotLeagueDetails from './pages/EventPage/RobotLeague/RobotLeagueDetails';
 
 const App = () => {
   const location = useLocation();
@@ -46,6 +47,7 @@ const App = () => {
         <Route exact path="/event/shortcompetitions" element={<ShortCompetition />} />
 
         <Route exact path="/event/draicplayground/:id" element={<DRAICplaygroundDetails />} />
+        <Route exact path="/event/robotleague/:id" element={<RobotLeagueDetails />} />
 
         <Route exact path="/schedule" element={<Schedule />} />
 
