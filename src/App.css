@@ -1,6 +1,11 @@
+@font-face {
+    font-family:goodtimingbd;
+    src: url('../src/font/good\ timing\ bd.ttf');
+}
 * {
     margin: 0;
     padding: 0;
+    /* overflow-y: hidden; */
     box-sizing: border-box;
 }
 

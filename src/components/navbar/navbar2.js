@@ -30,15 +30,16 @@ export default function Navbar() {
             <nav>
                 {(toggleMenu || screenWidth > 500) && (
                     <ul className="list">
-                        <li className="items"><NavLink className="Navbar-name" to="/"><p className='navbar-text'>Home</p></NavLink></li>
+                        {/* <li className="items"><NavLink className="Navbar-name" to="/"><p className='navbar-text'>Home</p></NavLink></li> */}
+                        <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/"><div className="navbar-text">Home</div></NavLink></li>
                         <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/about">About us</NavLink></li>
-                        <li className="items"><NavLink activeClassName="active"className="Navbar-name" to="/event">Events</NavLink></li>
+                        <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/event">Events</NavLink></li>
                         <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/schedule">Schedule</NavLink></li>
                         <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/map">Map</NavLink></li>
                         <li className="items"><NavLink activeClassName="active" className="Navbar-name" to="/leaderboard">Leaderboard</NavLink></li>
                     </ul>
                 )}
-                <button onClick={toggleNav} className="btn">BTN</button>
+                <button onClick={toggleNav} className="btn"><img className="navbar-btn-img" src="https://img.icons8.com/fluency-systems-filled/48/ffffff/grip-lines.png" alt="fsd"/></button>
             </nav>
         </div>
 
