@@ -34,3 +34,10 @@
 .event-link:hover{
     color: grey;
 }
+
+@media(max-width: 500px)
+{
+    .event-card{
+        width: 34%;
+    }
+}

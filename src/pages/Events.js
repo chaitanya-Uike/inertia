@@ -50,7 +50,6 @@ function Events() {
                         <Card lnk={card.page} img={card.img} name={card.name} description={card.description}/>
                     )
                 })}
-
             </div>
         </div>
     )

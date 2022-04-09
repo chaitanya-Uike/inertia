@@ -68,3 +68,38 @@
     height: 40px;
     cursor: pointer;
 }
+
+@media(max-width: 500px)
+{
+    .footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-first{
+        width: 80%;
+        padding: 0px;
+        text-align: center;
+    }
+    .footer-inertia-description{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .footer-second{
+        width: 80%;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .footer-third{
+        width: 80%;
+    }
+    .footer-menu-heading{
+        text-align: center;
+    }
+    .footer-social-item
+    {
+        justify-content: center;
+    }
+}
