@@ -21,6 +21,33 @@
     column-gap: 3rem;
 }
 
+/* ////////////////////////////////////////////////////////////////// */
+/* ongoing events */
+.ongoing-events{
+    padding:50px 0;
+}
+.ongoing-events-outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.ongoing-events-heading{
+    font-size:3rem;
+    margin:20px;
+}
+
+.ongoing-event-container{
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+}
+
+
 .liveTV {
     color: white;
     display: flex;
@@ -35,3 +62,5 @@
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
+
+

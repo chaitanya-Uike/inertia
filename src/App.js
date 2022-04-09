@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/navbar'
+import Navbar from './components/navbar/navbar2'
 import Home from './pages/Home'
 import Map from './pages/Map'
 import Footer from './components/footer'
@@ -7,7 +7,7 @@ import About from './pages/About';
 import LeaderBoard from './pages/LeaderBoard';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
-import EventPage from './pages/EventPage/Singleeventpage/EventPage';
+import EventPage from './pages/EventPage/EventPage';
 import { useLocation, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
 

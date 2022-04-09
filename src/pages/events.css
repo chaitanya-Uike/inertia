@@ -5,39 +5,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.event-card{
-    color: white;
-    background-color: #2E2E2E;
-    padding: 20px;
-    width: 25%;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    transition: transform 250ms ease-in-out;
-}
-
-.event-card:hover{
-    transform: translateY(-1rem)
-
-}
-
-.event-image{
-    width: 100%;
-    object-fit: cover;
-}
-
-.event-name{
-    margin: 20px 0;
-}
-.event-link{
-    text-decoration: none;
-    color: wheat;
-}
-.event-link:hover{
-    color: grey;
+    flex-direction: row;
 }

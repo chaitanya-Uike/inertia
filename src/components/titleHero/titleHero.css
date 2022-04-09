@@ -12,6 +12,6 @@
 }
 
 .titleHero .title {
-    font-size: 8rem;
+    font-size:calc(1rem + 6vw);
     text-transform: uppercase;
 }
