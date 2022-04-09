@@ -15,6 +15,8 @@ import Workshops from './pages/EventPage/Workshops/Workshops'
 import SpaceTech from './pages/EventPage/SapceTech/SpaceTech'
 import ShortCompetition from './pages/EventPage/ShortCompetition/ShortCompetition'
 
+import DRAICplaygroundDetails from './pages/EventPage/DRAICplayground/DRAICplaygroundDetails'
+
 import { useLocation, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
 
@@ -41,14 +43,16 @@ const App = () => {
         <Route exact path="/event/workshop" element={<Workshops />} />
         <Route exact path="/event/robotleague" element={<Robotleague />} />
         <Route exact path="/event/draicplayground" element={<DRAICplayground />} />
-        <Route exact path="/event/shortcompetitions" element={<ShortCompetition />}  />
+        <Route exact path="/event/shortcompetitions" element={<ShortCompetition />} />
+
+        <Route exact path="/event/draicplayground/:id" element={<DRAICplaygroundDetails />} />
 
         <Route exact path="/schedule" element={<Schedule />} />
 
         <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
+      </Routes >
       <Footer />
-    </div>
+    </div >
   );
 }
 
