@@ -32,6 +32,7 @@ export default function Navbar() {
                     <ul className="list">
                         <li className="items"><NavLink className="Navbar-name" to="/"><p className='navbar-text'>Home</p></NavLink></li>
                         <li className="items"><NavLink className="Navbar-name" to="/about">About us</NavLink></li>
+                        <li className="items"><NavLink className="Navbar-name" to="/event">Events</NavLink></li>
                         <li className="items"><NavLink className="Navbar-name" to="/schedule">Schedule</NavLink></li>
                         <li className="items"><NavLink className="Navbar-name" to="/map">Map</NavLink></li>
                         <li className="items"><NavLink className="Navbar-name" to="/leaderboard">Leaderboard</NavLink></li>
