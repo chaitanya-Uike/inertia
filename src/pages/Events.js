@@ -7,38 +7,36 @@ import Card from '../components/card/card'
 
 const data = [
     {
-        name: "RoboRace",
+        name: "Workshop",
         img: im,
-        registerlink: "Resgister",
+        page:"workshop",
+        description:"Workshops"
     },
     {
-        name: "RoboRace",
+        name: "Robot league",
         img: im,
-        registerlink: "Resgister",
+        page:"robotleague",
+        description:"robotleague"
     },
     {
-        name: "RoboRace",
+        name: "DRAIC Playground",
         img: im,
-        registerlink: "Resgister",
+        page:"draicplayground",
+        description:"draicplayground"
     },
     {
-        name: "RoboRace",
+        name: "15 min Competition",
         img: im,
-        registerlink: "Resgister",
+        page:"shortcompetitions",
+        description:"shortcompetitions"
     },
     {
-        name: "RoboRace",
+        name: "Space Tech",
         img: im,
-        registerlink: "Resgister",
+        page:"spacetech",
+        description:"spacetech"
     },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-
-
-
+    
 ]
 function Events() {
     return (
@@ -49,7 +47,7 @@ function Events() {
             <div className='event-container'>
                 {data.map((card, index) => {
                     return (
-                        <Card lnk={index} img={card.img} name={card.name} description={card.registerlink} />
+                        <Card lnk={card.page} img={card.img} name={card.name} description={card.description}/>
                     )
                 })}
 

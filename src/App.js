@@ -8,9 +8,15 @@ import LeaderBoard from './pages/LeaderBoard';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
 import EventPage from './pages/EventPage/EventPage';
+
+import Robotleague from './pages/EventPage/RobotLeague/RobotLeague'
+import DRAICplayground from './pages/EventPage/DRAICplayground/DRAICplayground'
+import Workshops from './pages/EventPage/Workshops/Workshops'
+import SpaceTech from './pages/EventPage/SapceTech/SpaceTech'
+import ShortCompetition from './pages/EventPage/ShortCompetition/ShortCompetition'
+
 import { useLocation, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
-
 
 const App = () => {
   const location = useLocation();
@@ -30,6 +36,15 @@ const App = () => {
         <Route exact path="/leaderboard" element={<LeaderBoard />} />
         <Route exact path="/schedule" element={<Schedule />} />
         <Route exact path="/event/:id" element={<EventPage />} />
+
+        <Route exact path="/event/spacetech" element={<SpaceTech />} />
+        <Route exact path="/event/workshop" element={<Workshops />} />
+        <Route exact path="/event/robotleague" element={<Robotleague />} />
+        <Route exact path="/event/draicplayground" element={<DRAICplayground />} />
+        <Route exact path="/event/shortcompetitions" element={<ShortCompetition />}  />
+
+        <Route exact path="/schedule" element={<Schedule />} />
+
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
