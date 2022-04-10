@@ -98,10 +98,17 @@ nav {
 
 
 @media screen and (max-width: 500px){
+    .navbar-outer{
+        align-items:right;
+        justify-content:right;
+        text-align:right;
+    }
     nav{
-        width: 100%;
+        width: 20%;
         border: 1px solid #DEBAD6;
         border-top:0;
+        border-right: 0;
+        border-radius: 0px  0px 0px 20px;
     }
     .list {
         flex-direction: column;
@@ -112,12 +119,11 @@ nav {
         justify-content: center;
         align-items: center;
     }
-    .items:nth-child(1){
-        /* border-top: 1px solid rgba(255, 255, 255, 0.555); */
+    /* .items:nth-child(1){
         margin-top: 30px;
-    }
+    } */
     .items {
-        width: 100%;
+        width: 100vh;
         /* border-top: 1px solid rgba(255, 255, 255, 0.555); */
         text-align: center;
         margin-right: 0px;
@@ -125,7 +131,7 @@ nav {
     }
     .btn {
         display: block;
-            border:0px
+        border:0px
     }
 
 }

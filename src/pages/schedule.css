@@ -1,7 +1,7 @@
 
 .schedule-outer-div{
     /* padding: 100px 300px; */
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
 
 
 .schedule-container{
-    padding: 60px;
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -64,7 +64,8 @@
     }
     .schedule-div{
         width: 90%;
-        padding:20px 10px
+        padding:20px 10px;
+        border-radius:10px
     }
     .schedule-line{
         margin:10px 20px;

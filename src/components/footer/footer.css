@@ -8,18 +8,20 @@
     justify-content: center;
     align-items: center;
     /* margin: auto; */
+    flex-wrap: wrap;
 
 }
 
 .footer-first{
-    width: 50%;
+    width: 35%;
     text-align: left;
     padding: 20px 40px;
 }
 .footer-inertia{
     margin: 20px 0;
     font-family: goodtimingbd;
-    font-size: 2.8rem;
+    font-size: 2rem;
+    margin-left: 10px;
 }
 .footer-inertia-description{
     margin: 10px 0;
@@ -48,7 +50,7 @@
 }
 
 .footer-third{
-    width: 30%;
+    width: 29%;
     text-align: left;
 }
 .footer-creator-div{
@@ -67,6 +69,7 @@
     display: flex;
     margin-bottom: 10px;
     margin: 20px 0;
+    align-items: center;
 }
 
 .footer-contact-image{
@@ -87,6 +90,19 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+    border-radius: 50%;
+}
+
+.footer-inertia-image-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.footer-inertia-image{
+    height: 40px;
+}
+.footer-draic-image{
+    height: 50px
 }
 
 @media(max-width: 500px)
@@ -96,11 +112,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding:50px 20px
     }
     .footer-first{
-        width: 80%;
+        width: 100%;
         padding: 0px;
         text-align: center;
+        margin-bottom: 40px;
     }
     .footer-inertia-description{
         width: 100%;
@@ -125,5 +143,11 @@
     }
     .footer-creator-div{
         padding:10px 20px
+    }
+    .footer-inertia-image-div{
+        flex-direction: column;
+    }
+    .footer-creator{
+        font-weight: 400;
     }
 }

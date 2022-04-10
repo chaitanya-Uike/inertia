@@ -63,21 +63,26 @@ function LeaderBoard() {
                 <TitleHero title="LeaderBoard" />
             </div>
             <div className='leaderboard-outer-div'>
-                {/* <h2 className='leaderboard-coming-soon'>Coming Soon...</h2> */}
-                <div>
-                    <h2 className='leaderboard-select-your-event'>Select your Event</h2>
-                    <select id='workshop' name='workshop' className='leaderboard-selection-select' onChange={fetchEventLeaderboard}>
-                        <option value="All">All</option>
-                        {
-                            events.map((event, key) => <option key={key} value={event.name}>{event.name}</option>)
-                        }
-                    </select>
+                <h2 className='leaderboard-coming-soon'>Coming Soon...</h2>
+                {/* <div className="leaderboard-select-box">
+                    <div className='leaderboard-select-your-text-box'>
+                        <h2 className='leaderboard-select-your-event'>Select your Event</h2>
+                    </div>
+                    <div>
+                        <select id='workshop' name='workshop' className='leaderboard-selection-select' onChange={fetchEventLeaderboard}>
+                            <option value="All">All</option>
+                            {
+                                events.map((event, key) => <option key={key} value={event.name}>{event.name}</option>)
+                            }
+                        </select>
+                    </div>
+
                 </div>
 
                 <div className='leaderboard-div'>
                     {
                         loading ? <Loader type="spinningBubbles" color="white" /> : <>
-                            {leaderboard.length === 0 ? <h1>No Players found</h1> : leaderboard.map((card, position) => {
+                            {leaderboard.length === 0 ? <h1>No Players Found</h1> : leaderboard.map((card, position) => {
                                 return (
                                     <div key={position}>
                                         <div className='leaderboard-individual-box' >
@@ -95,7 +100,7 @@ function LeaderBoard() {
                             }
                             )}</>}
 
-                </div>
+                </div> */}
             </div>
 
         </>

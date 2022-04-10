@@ -1,20 +1,27 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import im from '../assets/static/roboRace.jpeg'
+import workshop from '../assets/events/workshop.jpg'
+import robotleague from '../assets/events/robot league1.jpg'
+import competition from '../assets/events/competition.jpg'
+import space from '../assets/events/spaceship.jpg'
+
+
+
 import TitleHero from '../components/titleHero'
 import './events.css'
 import Card from '../components/card/card'
 
 const data = [
     {
-        name: "Workshop",
-        img: im,
+        name: "Workshops",
+        img: workshop,
         page:"workshop",
         description:"Workshops"
     },
     {
         name: "Robot league",
-        img: im,
+        img: robotleague,
         page:"robotleague",
         description:"robotleague"
     },
@@ -25,14 +32,14 @@ const data = [
         description:"draicplayground"
     },
     {
-        name: "15 min Competition",
-        img: im,
+        name: "Short Competition",
+        img: competition,
         page:"shortcompetitions",
         description:"shortcompetitions"
     },
     {
         name: "Space Tech",
-        img: im,
+        img: space,
         page:"spacetech",
         description:"spacetech"
     },

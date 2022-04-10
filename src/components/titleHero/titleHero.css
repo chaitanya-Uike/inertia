@@ -1,5 +1,5 @@
 .titleHero {
-    background: url('../../assets/static/sep12.jpg');
+    background: url('../../assets/static/sep12-min.jpg');
     box-shadow: inset 0 0 0 2000px #010101a9;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,4 +16,9 @@
     text-transform: uppercase;
     font-family:goodtimingbd ;
     text-align: center;
+}
+@media(max-width: 500px) {
+    .titleHero{
+        height:30vh
+    }
 }

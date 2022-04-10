@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../assets/static/sep11.jpg');
+    background: url('../../assets/static/sep11-min.jpg');
     box-shadow: inset 0 0 0 2000px #010101a9;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,16 +67,23 @@
 }
 
 .hero .exploreBtn:hover {
-    /* background-color: none; */
-    border: 2px solid white;
+    background: none;
+    border: 2px solid #C13E0C;
     /* color:#C13E0C */
     
 }
 
 @media(max-width: 500px)
 {
+    .hero{
+        height:80vh
+    }
+    .hero .title{
+        margin-top: 50px;
+        font-size:3.5rem
+    }
     .hero .sub-heading{
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 20px 0;
         margin-bottom: 0;
     }
@@ -84,13 +91,14 @@
         /* display: flex; */
         flex-direction: column;
     }
+   
     
 }
-@media(max-width: 400px)
+/* @media(max-width: 400px)
 {
     .hero .sub-heading{
         font-size: 1.2rem;
     }
 
     
-}
+} */

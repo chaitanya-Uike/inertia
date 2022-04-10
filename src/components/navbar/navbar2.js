@@ -40,7 +40,8 @@ export default function Navbar({history}) {
                         <li className="items"><NavLink onClick={toggleNav} activeClassName="active" className="Navbar-name" to="/leaderboard">Leaderboard</NavLink></li>
                     </ul>
                 )}
-                <button onClick={toggleNav} className="btn"><img className="navbar-btn-img" src="https://img.icons8.com/fluency-systems-filled/48/ffffff/grip-lines.png" alt="fsd"/></button>
+                
+                <button onClick={toggleNav} className="btn"><img className="navbar-btn-img" src="https://img.icons8.com/material/24/ffffff/menu--v1.png" alt="fsd"/></button>
             </nav>
         </div>
 

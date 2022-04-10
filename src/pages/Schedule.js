@@ -4,11 +4,11 @@ import './schedule.css'
 // import im from '../assets/static/roboRace.jpeg'
 
 const data = [
-    // {
-    //     number: "1",
-    //     eventname: "Roborace",
-    //     time: "10:00",
-    // },
+    {
+        number: "1",
+        eventname: "Roborace",
+        time: "10:00",
+    },
     // {
     //     number: "2",
     //     eventname: "Roborace",
@@ -33,7 +33,9 @@ function Schedule() {
                 <TitleHero title="Schedule" />
             </div>
             <div className='schedule-container'>
-                <div className='schedule-div'>
+            <h2 className='leaderboard-coming-soon'>Coming Soon...</h2>
+
+                {/* <div className='schedule-div'>
                     {data.map((card) => {
                         return (
                             <>
@@ -53,7 +55,7 @@ function Schedule() {
                         )
                     })}
 
-                </div>
+                </div> */}
             </div>
         </>
 
