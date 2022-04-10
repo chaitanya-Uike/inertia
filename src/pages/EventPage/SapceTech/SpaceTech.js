@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
-import data from '../../../Data/SpaceTech'
-import Card from '../../../components/card copy/card'
+// import data from '../../../Data/SpaceTech'
+// import Card from '../../../components/card copy/card'
 function DRAICplayground() {
 
     //     let {id}=useParams();

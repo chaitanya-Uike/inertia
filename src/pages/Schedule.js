@@ -3,12 +3,12 @@ import TitleHero from '../components/titleHero'
 import './schedule.css'
 // import im from '../assets/static/roboRace.jpeg'
 
-const data = [
-    {
-        number: "1",
-        eventname: "Roborace",
-        time: "10:00",
-    },
+// const data = [
+//     {
+//         number: "1",
+//         eventname: "Roborace",
+//         time: "10:00",
+//     },
     // {
     //     number: "2",
     //     eventname: "Roborace",
@@ -25,7 +25,7 @@ const data = [
     //     time: "10:00",
     // },
 
-]
+// ]
 function Schedule() {
     return (
         <>

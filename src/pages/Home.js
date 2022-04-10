@@ -1,43 +1,43 @@
 import React from 'react'
 
 import Hero from '../components/hero'
-import im from '../assets/static/roboRace.jpeg'
+// import im from '../assets/static/roboRace.jpeg'
 import Squidgame from './squidgame.js'
 import './home.css'
 
 
-const data = [
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-    {
-        name: "RoboRace",
-        img: im,
-        registerlink: "Resgister",
-    },
-]
+// const data = [
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+//     {
+//         name: "RoboRace",
+//         img: im,
+//         registerlink: "Resgister",
+//     },
+// ]
 
 const Home = () => {
     return (
