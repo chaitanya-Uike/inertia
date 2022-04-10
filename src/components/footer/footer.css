@@ -12,30 +12,38 @@
 }
 
 .footer-first{
-    width: 40%;
+    width: 50%;
     text-align: left;
     padding: 20px 40px;
 }
 .footer-inertia{
     margin: 20px 0;
+    font-family: goodtimingbd;
 }
 .footer-inertia-description{
     margin: 10px 0;
-    width:80%
+    width:80%;
+    color:hsla(0, 0%, 100%, 0.5);
 }
 .footer-second{
-    width: 25%;
+    width: 50%;
 }
 
 .footer-page-link{
     cursor: pointer;
     margin-bottom: 15px;
     font-size: 1rem;
+    text-transform: uppercase;
+}
+.footer-page-link:hover{
+    color:grey;
 }
 
 .footer-menu-heading{
     margin-bottom: 20px;
     font-size: 1.8rem;
+    font-family: goodtimingbd;
+    color: #ff715b;
 }
 
 .footer-third{

@@ -39,11 +39,11 @@ function Schedule() {
                             <>
                                 <div className='schedule-individual-box'>
                                     <div className='schedule-name-div'>
-                                        <h3 className='schedule-postition'>{card.number}</h3>
-                                        <h3>{card.eventname}</h3>
+                                        <h3 className='schedule-postition'>{card.number}.</h3>
+                                        <h3 className='schedule-name'>{card.eventname}</h3>
                                     </div>
                                     <div>
-                                        <h3>{card.time}</h3>
+                                        <h3 className='schedule-time'>{card.time}</h3>
                                     </div>
 
                                 </div>

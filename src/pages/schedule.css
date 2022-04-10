@@ -17,10 +17,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color:#12141d;
+
 }
 
 .schedule-div{
-    background-color: #2E2E2E;
+    background-color: #1E2028;
     padding:30px;
     border-radius: 30px;
     width: 70%;
@@ -41,8 +43,35 @@
 
 .schedule-postition{
     margin-right: 30px;
+    color: #3c5ccf;;
 }
+
+.schedule-name{
+    text-transform: uppercase;
+}
+.schedule-time{
+    color: #ff715b;
+}
+
 .schedule-line{
     height: 3px;
     background-color: rgb(148, 145, 145);
+}
+
+@media(max-width: 500px){
+    .schedule-container{
+        padding:50px 0;
+    }
+    .schedule-div{
+        width: 90%;
+        padding:20px 10px
+    }
+    .schedule-line{
+        margin:10px 20px;
+        justify-content:center
+    }
+    .schedule-postition{
+        margin-right: 5px;
+    }
+
 }

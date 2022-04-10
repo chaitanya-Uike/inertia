@@ -41,13 +41,31 @@
     transition: background-color 250ms ease-in-out;
     
 }
+.registerBtn{
+    margin: 0 20px;
+    margin-top: 3rem;
+    padding: 1rem 1.25rem;
+    /* background-color: #C13E0C; */
+    background-position: center;
+    border: 2px solid #C13E0C;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 250ms ease-in-out;
+}
+
 .hero-button-div{
     display: flex;
     /* flex-direction: column; */
 }
+.hero .registerBtn:hover{
+    background-color: #C13E0C;
+}
 
 .hero .exploreBtn:hover {
-    /* background-color: white; */
+    /* background-color: none; */
     border: 2px solid white;
     /* color:#C13E0C */
     

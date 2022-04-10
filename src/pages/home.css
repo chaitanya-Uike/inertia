@@ -24,6 +24,7 @@
 /* ////////////////////////////////////////////////////////////////// */
 /* ongoing events */
 .ongoing-events{
+    background-color:#12141D;
     padding:50px 0;
 }
 .ongoing-events-outer{
@@ -32,11 +33,23 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+    margin-top: 50px;
 }
 .ongoing-events-heading{
-    font-size:3rem;
+    font-size: calc(1.5rem + 2vw);
     margin:20px;
+    font-family: goodtimingbd;
+    text-transform:uppercase;
+    white-space: nowrap;
+
 }
+.ongoing-events-subheading{
+    color:hsla(0, 0%, 100%, 0.5);
+    text-transform:uppercase;
+    text-align: center;
+    white-space: nowrap;
+
+}   
 
 .ongoing-event-container{
     /* width: 80%; */
@@ -55,26 +68,29 @@
     align-items: center;
     flex-direction: column;
     margin: 5rem auto;
-    width: 10px;
+    /* width: 10px; */
     margin-bottom: 2rem;
 }
 
-.liveTV h3 {
+/* .liveTV h3 {
     font-size: 1.75rem;
     margin-bottom: 2rem;
-    white-space: nowrap;
-}
+} */
 
 iframe{
     width: 60rem;
     height: 600px;
 }
 
+.vdo{
+    margin-top:50px;
+}
+
 @media(max-width: 500px)
 {
     .ongoing-events-heading{
         margin: 0px;
-        font-size: 2.4rem;
+        /* font-size: 2.4rem; */
         white-space: nowrap;
     }
     iframe

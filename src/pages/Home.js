@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Hero from '../components/hero'
-import EventBox from '../components/event'
+// import EventBox from '../components/event'
 import im from '../assets/static/roboRace.jpeg'
 import './home.css'
 import Card from '../components/card/card.js'
@@ -60,12 +60,13 @@ const Home = () => {
                 <div className="ongoing-event-container">
                     <div>
                         <h1 className="ongoing-events-heading">Ongoing Events</h1>
+                        <h3 className="ongoing-events-subheading">Come join with us</h3>
                     </div>
                     <div className="ongoing-events-outer">
 
                         {data.map((card, index) => {
                             return (
-                                <Card lnk={index} img={card.img} name={card.name} description={card.registerlink} />
+                                <Card lnk={index} img={card.img} name={card.name} />
                             )
                         })}
 
@@ -73,7 +74,8 @@ const Home = () => {
                 </div>
             </section>
             <section className="liveTV">
-                <h3>Live TV</h3>
+                <h1 className="ongoing-events-heading">Live TV</h1>
+                <h3 className="ongoing-events-subheading">Come join with us</h3>
                 <div className="vdo">
                     <iframe src="https://www.youtube.com/embed/NJC12cMaCoM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

@@ -8,7 +8,7 @@ function About() {
                 <TitleHero title="WHO WE ARE" />
             </div>
             <div className='about-us-description'>
-                <p className='about-us-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p className='about-us-p'>INERTIA’22, DYPCOE is the annual science and technology festival of Dr. D. Y. Patil College of Engineering in Association with Draic. It provides a platform for the student community to develop and showcase their technical progress. It has grown into Pune's Largest Science and Technology Festival, attracting people from all walks of life, including students, academia, professionals, and the general public. So call your friends, mark your calendars, and gear up for INERTIA’22!!!</p>
             </div>
         </>
 

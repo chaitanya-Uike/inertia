@@ -1,9 +1,21 @@
 .about-us-description{
     color: white;
     padding: 100px;
+    background-color:#12141D;
 }
 .about-us-p{
     font-size: 1.7rem;
     text-align: center;
     line-height: 3rem;
+}
+
+@media (max-width: 500px) {
+    .about-us-description{
+        padding:60px 30px;
+    }
+    .about-us-p{
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2rem;
+    }
 }

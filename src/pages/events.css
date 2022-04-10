@@ -6,4 +6,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    background-color:#12141D;
+}
+
+@media (max-width: 500px) {
+    .event-container{
+        padding:30px 0;
+    }
 }

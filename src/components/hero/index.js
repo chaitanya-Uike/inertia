@@ -10,7 +10,7 @@ const Hero = () => {
             <h5 className="sub-heading">LETS MAKE A TECH MOVE</h5>
             <div className="hero-button-div">
                 <NavLink to="/event" className="exploreBtn">Explore Events</NavLink>
-                <NavLink to="/register" className="exploreBtn">Register for Events</NavLink>
+                <NavLink to="/register" className="registerBtn">Register for Events</NavLink>
             </div>
 
         </div>

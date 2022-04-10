@@ -23,7 +23,8 @@ function LeaderBoard() {
                 <TitleHero title="LeaderBoard" />
             </div>
             <div className='leaderboard-outer-div'>
-                <div className='leaderboard-div'>
+                <h2 className='leaderboard-coming-soon'>Coming Soon...</h2>
+                {/* <div className='leaderboard-div'>
                     {leaderboard.map((card, position) => {
                         return (
                             <div key={position}>
@@ -42,7 +43,7 @@ function LeaderBoard() {
                         )
                     })}
 
-                </div>
+                </div> */}
             </div>
 
         </>

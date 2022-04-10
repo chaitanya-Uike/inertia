@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import im from '../assets/static/roboRace.jpeg'
 import TitleHero from '../components/titleHero'
 import './events.css'
