@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
 import data from './competitiondata'
-import Card from '../../../components/card/card'
+import Card from '../../../components/card copy/card'
 function ShortCompetition() {
   return (
     <div>
@@ -9,7 +9,7 @@ function ShortCompetition() {
         <div className='event-container'>
                 {data.map((card, index) => {
                     return (
-                        <Card lnk={"workshop"} eventName={card.eventName} img={card.img} sublnk={index} key={index} name={card.eventName} description={card.description} />
+                        <Card eventName={card.eventName} img={card.img} key={index} name={card.eventName} description={card.description} />
                     )
                 })}
             </div>

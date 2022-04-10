@@ -4,15 +4,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    padding: 50px 0;
+    background-color:#12141D;
 }
 
 .Register-fill-form {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    font-family: goodtimingbd;
+    text-transform: uppercase;
+    color: #ff715b;
 }
 
 .Register-input-boxes-div {
-    width: 40%;
+    width: 45%;
     text-align: center;
     margin: 40px 0px;
 }
@@ -22,25 +26,32 @@ label {
 }
 
 .register-btn {
-    background-color: blue;
+    background-color: #3a86ff;
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
     border: 0
 }
+
 
 .form-control {
     width: 100%;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 20px;
     font-size: 1.2rem;
-    margin-top: 20px
+    margin-top: 20px;
+    border:0;
+}
+.form-control:after{
+    border: 0;
 }
 
 .Register-input-indi-div {
     margin: 30px;
+    margin-bottom: 40px;
 }
 
 

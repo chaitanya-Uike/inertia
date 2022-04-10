@@ -13,11 +13,6 @@
     transition: transform 250ms ease-in-out;
     box-shadow: 0 20px 50px rgba(0,0,0,.8);
 }
-.event-card-1{
-    text-decoration: none;
-    text-align: center;
-    color: white
-}
 
 .event-card:hover{
     transform: translateY(-1rem)

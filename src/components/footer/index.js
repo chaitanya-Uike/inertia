@@ -2,6 +2,9 @@ import React from 'react'
 
 import './footer.css'
 
+const aryanurl='https://www.linkedin.com/in/aryan-jangid-9641a2207/'
+const chaitanyaurl='https://www.linkedin.com/in/chaitanya-uike-b15a2119a/'
+
 const Footer = () => {
   return (
     <div className="footer-outer">
@@ -55,12 +58,23 @@ const Footer = () => {
               <p>inertiadypcoe@gmail.com</p>
             </div>
           </div>
-
         </div>
-
-        <div>
-
-        </div>
+        
+      </div>
+      <div className='footer-creator-div'>
+        <h4 className='footer-creator'>
+          Website designed and created by <a
+              href={aryanurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-a-link"
+            >@Aryan Jangid</a> and <a
+              href={chaitanyaurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-a-link"
+            > @Chaitanya Uike</a>
+        </h4>
       </div>
     </div>
   )

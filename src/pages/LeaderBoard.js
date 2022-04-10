@@ -22,7 +22,7 @@ function LeaderBoard() {
     const [leaderboard, setLeaderboard] = useState([])
 
     const fetchLeaderboard = async () => {
-        const res = await fetch('https://inertia-api.herokuapp.com/leaderboard')
+        const res = await fetch('https://inertia-api-v2.herokuapp.com/leaderboard')
         const data = await res.json()
 
         setLeaderboard(data.players)
@@ -40,7 +40,7 @@ function LeaderBoard() {
             <div className='leaderboard-outer-div'>
                 <h2 className='leaderboard-coming-soon'>Coming Soon...</h2>
                 <div className='leaderboard-div'>
-                    {data.map((card, position) => {
+                    {leaderboard.map((card, position) => {
                         return (
                             <div key={position}>
                                 <div className='leaderboard-individual-box' >

@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 // import EventBox from '../components/event'
 import im from '../assets/static/roboRace.jpeg'
 import './home.css'
-import Card from '../components/card/card.js'
+import Card from '../components/card copy/card.js'
 // import { NavLink } from 'react-router-dom'
 
 
@@ -60,22 +60,21 @@ const Home = () => {
                 <div className="ongoing-event-container">
                     <div>
                         <h1 className="ongoing-events-heading">Ongoing Events</h1>
-                        <h3 className="ongoing-events-subheading">Come join with us</h3>
+                        <h3 className="ongoing-events-subheading">join us now !!</h3>
                     </div>
                     <div className="ongoing-events-outer">
 
                         {data.map((card, index) => {
                             return (
-                                <Card lnk={index} img={card.img} name={card.name} />
+                                <Card img={card.img} name={card.name} />
                             )
                         })}
-
                     </div>
                 </div>
             </section>
             <section className="liveTV">
                 <h1 className="ongoing-events-heading">Live TV</h1>
-                <h3 className="ongoing-events-subheading">Come join with us</h3>
+                <h3 className="ongoing-events-subheading">connect with us from anywhere</h3>
                 <div className="vdo">
                     <iframe src="https://www.youtube.com/embed/NJC12cMaCoM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

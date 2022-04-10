@@ -50,7 +50,18 @@
     width: 30%;
     text-align: left;
 }
-
+.footer-creator-div{
+    text-align: center;
+    color: white;
+    
+}
+.footer-a-link{
+    color: #ff715b;
+    text-decoration: none;
+}
+.footer-creator{
+    padding:10px 0;
+}
 .footer-contact{
     display: flex;
     margin-bottom: 10px;
@@ -105,9 +116,13 @@
     }
     .footer-menu-heading{
         text-align: center;
+        white-space: nowrap
     }
     .footer-social-item
     {
         justify-content: center;
+    }
+    .footer-creator-div{
+        padding:10px 20px
     }
 }

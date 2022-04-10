@@ -47,7 +47,7 @@ function Events() {
             <div className='event-container'>
                 {data.map((card, index) => {
                     return (
-                        <Card lnk={card.page} img={card.img} name={card.name} description={card.description}/>
+                        <Card lnk={card.page} img={card.img} name={card.name}/>
                     )
                 })}
             </div>

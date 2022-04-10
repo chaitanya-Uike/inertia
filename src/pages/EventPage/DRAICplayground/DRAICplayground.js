@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
 import data from './Draicplaygrounddata'
-import Card from '../../../components/card/card'
+import Card from '../../../components/card copy/card'
 function DRAICplayground() {
 
   //     let {id}=useParams();
@@ -13,7 +13,7 @@ function DRAICplayground() {
       <div className='event-container'>
       {data.map((card, index) => {
         return (
-          <Card lnk={"draicplayground"} eventName={card.eventName}
+          <Card eventName={card.eventName}
             img={card.img}  key={index} name={card.eventName} description={card.description} />
         )
       })}
