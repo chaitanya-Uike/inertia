@@ -4,6 +4,9 @@ import './footer.css'
 
 const aryanurl='https://www.linkedin.com/in/aryan-jangid-9641a2207/'
 const chaitanyaurl='https://www.linkedin.com/in/chaitanya-uike-b15a2119a/'
+const swanandurl='https://www.linkedin.com/in/swanand-mathekar/'
+const prathisurl='https://www.linkedin.com/in/prathisupadhyay/'
+
 
 const Footer = () => {
   return (
@@ -68,12 +71,24 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="footer-a-link"
-            >@Aryan Jangid</a> and <a
+            >@Aryan Jangid</a> , <a
               href={chaitanyaurl}
               target="_blank"
               rel="noopener noreferrer"
               className="footer-a-link"
-            > @Chaitanya Uike</a>
+            > @Chaitanya Uike</a> , 
+            <a
+              href={swanandurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-a-link"
+            > @Swanand Mathekar</a> and 
+            <a
+              href={prathisurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-a-link"
+            > @Prathis Upadhyay</a>
         </h4>
       </div>
     </div>

@@ -56,7 +56,7 @@ const Home = () => {
                     <EventBox title="Projects" link="/projects" />
                 </div>
             </section> */}
-            <section className="ongoing-events">
+            {/* <section className="ongoing-events">
                 <div className="ongoing-event-container">
                     <div>
                         <h1 className="ongoing-events-heading">Ongoing Events</h1>
@@ -71,7 +71,7 @@ const Home = () => {
                         })}
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="liveTV">
                 <h1 className="ongoing-events-heading">Live TV</h1>
                 <h3 className="ongoing-events-subheading">connect with us from anywhere</h3>

@@ -39,6 +39,7 @@
     cursor: pointer;
     text-decoration: none;
     transition: background-color 250ms ease-in-out;
+    text-align: center;
     
 }
 .registerBtn{
@@ -49,6 +50,7 @@
     background-position: center;
     border: 2px solid #C13E0C;
     border-radius: 0.5rem;
+    text-align: center;
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
@@ -74,7 +76,9 @@
 @media(max-width: 500px)
 {
     .hero .sub-heading{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        margin: 20px 0;
+        margin-bottom: 0;
     }
     .hero-button-div{
         /* display: flex; */
@@ -85,7 +89,7 @@
 @media(max-width: 400px)
 {
     .hero .sub-heading{
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
 
     

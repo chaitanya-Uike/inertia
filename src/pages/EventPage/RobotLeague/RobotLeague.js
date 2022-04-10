@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
-import data from '../../../Data/RoboLeague'
+import data from './robotleaguedata'
 import Card from '../../../components/card copy/card'
 
 function RobotLeague() {

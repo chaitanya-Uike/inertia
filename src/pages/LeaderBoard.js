@@ -63,13 +63,17 @@ function LeaderBoard() {
                 <TitleHero title="LeaderBoard" />
             </div>
             <div className='leaderboard-outer-div'>
-                <h2 className='leaderboard-coming-soon'>Coming Soon...</h2>
-                <select id='workshop' name='workshop' onChange={fetchEventLeaderboard}>
-                    <option value="All">All</option>
-                    {
-                        events.map((event, key) => <option key={key} value={event.name}>{event.name}</option>)
-                    }
-                </select>
+                {/* <h2 className='leaderboard-coming-soon'>Coming Soon...</h2> */}
+                <div>
+                    <h2 className='leaderboard-select-your-event'>Select your Event</h2>
+                    <select id='workshop' name='workshop' className='leaderboard-selection-select' onChange={fetchEventLeaderboard}>
+                        <option value="All">All</option>
+                        {
+                            events.map((event, key) => <option key={key} value={event.name}>{event.name}</option>)
+                        }
+                    </select>
+                </div>
+
                 <div className='leaderboard-div'>
                     {
                         loading ? <Loader type="spinningBubbles" color="white" /> : <>
@@ -84,7 +88,6 @@ function LeaderBoard() {
                                             <div className='leaderboard-points-div'>
                                                 <h3 className='leaderboard-points'>+ {card.points}</h3>
                                             </div>
-
                                         </div>
                                         <div className='leaderboard-line'></div>
                                     </div>

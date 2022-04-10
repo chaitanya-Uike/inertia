@@ -4,26 +4,26 @@ import './schedule.css'
 // import im from '../assets/static/roboRace.jpeg'
 
 const data = [
-    {
-        number: "1",
-        eventname: "Roborace",
-        time: "10:00",
-    },
-    {
-        number: "2",
-        eventname: "Roborace",
-        time: "10:00",
-    },
-    {
-        number: "3",
-        eventname: "Roborace",
-        time: "10:00",
-    },
-    {
-        number: "4",
-        eventname: "Roborace",
-        time: "10:00",
-    },
+    // {
+    //     number: "1",
+    //     eventname: "Roborace",
+    //     time: "10:00",
+    // },
+    // {
+    //     number: "2",
+    //     eventname: "Roborace",
+    //     time: "10:00",
+    // },
+    // {
+    //     number: "3",
+    //     eventname: "Roborace",
+    //     time: "10:00",
+    // },
+    // {
+    //     number: "4",
+    //     eventname: "Roborace",
+    //     time: "10:00",
+    // },
 
 ]
 function Schedule() {

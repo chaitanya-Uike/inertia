@@ -9,7 +9,20 @@
     background-color: #12141d;
 }
 
+.leaderboard-selection-select{
+    background-color: white;
+    height: 40px;
+    padding:0 10px;
+    border: 0;
+    border-radius:10px;
+}
 
+.leaderboard-select-your-event{
+    color: white
+}
+.leaderboard-selection-select:visited{
+    border: 0;
+}
 
 .leaderboard-div {
     background-color: #2E2E2E;
