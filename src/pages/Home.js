@@ -1,11 +1,9 @@
 import React from 'react'
 
 import Hero from '../components/hero'
-// import EventBox from '../components/event'
 import im from '../assets/static/roboRace.jpeg'
+import Squidgame from './squidgame.js'
 import './home.css'
-import Card from '../components/card copy/card.js'
-// import { NavLink } from 'react-router-dom'
 
 
 const data = [
@@ -72,6 +70,8 @@ const Home = () => {
                     </div>
                 </div>
             </section> */}
+
+            <Squidgame />
             <section className="liveTV">
                 <h1 className="ongoing-events-heading">Live TV</h1>
                 <h3 className="ongoing-events-subheading">connect with us from anywhere</h3>

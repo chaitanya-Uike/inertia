@@ -93,10 +93,13 @@ iframe{
         /* font-size: 2.4rem; */
         white-space: nowrap;
     }
+    .ongoing-events-subheading{
+        margin-top:20px;
+    }
     iframe
     {
         width: 300px;
-        height: 200px;
+        height: 350px;
     }
     .ongoing-events-outer{
         width: 100%;
