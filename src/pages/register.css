@@ -1,43 +1,57 @@
-.Register-outer-box{
+.Register-outer-box {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin: 50px 0;
 }
 
-.Register-fill-form{
-    font-size:2.5rem;
+.Register-fill-form {
+    font-size: 2.5rem;
 }
 
-.Register-input-boxes-div{
-    width:40%;
-    text-align:center;
+.Register-input-boxes-div {
+    width: 40%;
+    text-align: center;
     margin: 40px 0px;
 }
 
-label{
-    font-size:1.5rem
-}
-.register-btn{
-    background-color:blue;
-    color:white;
-    padding:10px 30px;
-    border-radius:10px;
-    font-size:1rem;
-    border:0
+label {
+    font-size: 1.5rem
 }
 
-.form-control{
-    width:100%;
-    height:50px;
-    border-radius:50px;
-    padding:20px;
-    font-size:1.2rem;
-    margin-top:20px
+.register-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 0
 }
 
-.Register-input-indi-div{
+.form-control {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 20px
+}
+
+.Register-input-indi-div {
     margin: 30px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
