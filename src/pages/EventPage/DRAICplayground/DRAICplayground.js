@@ -14,7 +14,7 @@ function DRAICplayground() {
       {data.map((card, index) => {
         return (
           <Card lnk={"draicplayground"} eventName={card.eventName}
-            img={card.img} sublnk={index} key={index} name={card.eventName} description={card.description} />
+            img={card.img}  key={index} name={card.eventName} description={card.description} />
         )
       })}
       </div>

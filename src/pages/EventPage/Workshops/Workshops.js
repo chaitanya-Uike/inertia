@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleHero from '../../../components/titleHero'
-import data from '../../../Data/workshops'
+import data from './workshopdata'
 import Card from '../../../components/card/card'
 function Workshop() {
     return (
