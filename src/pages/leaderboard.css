@@ -37,6 +37,7 @@
 
 .leaderboard-postition{
     margin-right: 30px;
+    color: #3c5ccf;
 }
 .leaderboard-line{
     height: 3px;
@@ -45,6 +46,12 @@
 
 .leaderboard-position-outer-div{
     width: 70%;
+}
+.leaderboard-points{
+    color:#FAD02C;
+}
+.leaderboard-points-div{
+   
 }
 
 .leaderboard-your-postion-div{

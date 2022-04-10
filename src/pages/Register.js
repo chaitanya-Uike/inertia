@@ -1,7 +1,12 @@
 import React from 'react'
 import TitleHero from '../components/titleHero'
+import {useState} from 'react'
 import './register.css'
 function Register() {
+
+    const [user,setUser]=useState({})
+
+
     return (
         <div>
             <TitleHero title="Register Here"></TitleHero>
@@ -13,7 +18,7 @@ function Register() {
                             <label>Enter your name</label>
                         </div>
                         <div>
-                            <input type="text" className="form-control" placeholder="Name" required />
+                            <input id="username"  type="text" className="form-control" placeholder="Name" required />
                         </div>
                     </div>
                     <div className="Register-input-indi-div">
@@ -21,7 +26,7 @@ function Register() {
                             <label>Enter your Email</label>
                         </div>
                         <div>
-                            <input type="text" className="form-control" placeholder="Email" required />
+                            <input id="email" type="text" className="form-control" placeholder="Email" required />
                         </div>
                     </div>
                     <div className="Register-input-indi-div">
@@ -29,7 +34,7 @@ function Register() {
                             <label>Enter your Phone Number</label>
                         </div>
                         <div>
-                            <input type="text" className="form-control" placeholder="Phone Number" required />
+                            <input id="phone" type="text" className="form-control" placeholder="Phone Number" required />
                         </div>
                     </div>
                     <div>
