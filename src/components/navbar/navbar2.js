@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import './navbar2.css'
 
-export default function Navbar({history}) {
+export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
@@ -25,10 +25,11 @@ export default function Navbar({history}) {
 
     }, [])
 
+    const navclass = toggleMenu ? 'expand' : 'shrink'
 
     return (
         <div className="navbar-outer">
-            <nav>
+            <nav className={`${navclass}`}>
                 {(toggleMenu || screenWidth > 500) && (
                     <ul className="list">
                         {/* <li className="items"><NavLink className="Navbar-name" to="/"><p className='navbar-text'>Home</p></NavLink></li> */}
@@ -40,8 +41,8 @@ export default function Navbar({history}) {
                         <li className="items"><NavLink onClick={toggleNav} activeClassName="active" className="Navbar-name" to="/leaderboard">Leaderboard</NavLink></li>
                     </ul>
                 )}
-                
-                <button onClick={toggleNav} className="btn"><img className="navbar-btn-img" src="https://img.icons8.com/material/24/ffffff/menu--v1.png" alt="fsd"/></button>
+
+                <button onClick={toggleNav} className="btn"><img className="navbar-btn-img" src="https://img.icons8.com/material/24/ffffff/menu--v1.png" alt="fsd" /></button>
             </nav>
         </div>
 
