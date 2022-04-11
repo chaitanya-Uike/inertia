@@ -9,7 +9,7 @@ import lifi from './photos/lifi.jpg'
 import sensor from './photos/sensors.jpg'
 import cad from './photos/cad.png'
 import slice from './photos/slicing.png'
-import printing from './photos/slicing.png'
+import printing from './photos/3d_printing.png'
 import render from './photos/rendering.jpg'
 import fea from './photos/fea.png'
 import staad from './photos/staadpro.jpg'
@@ -18,82 +18,82 @@ import auto from './photos/autocad.jpg'
 import canva from './photos/canva.jpg'
 import photo from './photos/photography.jpg'
 
-const data=[
+const data = [
     {
-        eventName:"UI/UX Design",
-        img:ui,
+        eventName: "UI/UX Design",
+        img: ui,
     },
     {
-        eventName:"Front End",
-        img:front,
+        eventName: "Front End",
+        img: front,
     },
     {
-        eventName:"Back End",
-        img:back,
+        eventName: "Back End",
+        img: back,
     },
     {
-        eventName:"AI/ML",
-        img:ai,
+        eventName: "AI/ML",
+        img: ai,
     },
     {
-        eventName:"Image Processing",
-        img:image,
+        eventName: "Image Processing",
+        img: image,
     },
     {
-        eventName:"Sci-Lab",
-        img:sci,
+        eventName: "Sci-Lab",
+        img: sci,
     },
     {
-        eventName:"Multisim",
-        img:pro,
+        eventName: "Multisim",
+        img: pro,
     },
     {
-        eventName:"Li-Fi",
-        img:lifi,
+        eventName: "Li-Fi",
+        img: lifi,
     },
     {
-        eventName:"Sensors",
-        img:sensor,
+        eventName: "Sensors",
+        img: sensor,
     },
     {
-        eventName:"CAD",
-        img:cad,
+        eventName: "CAD",
+        img: cad,
     },
     {
-        eventName:"Slicing",
-        img:slice,
+        eventName: "Slicing",
+        img: slice,
     },
     {
-        eventName:"3D-Printing",
-        img:printing,
+        eventName: "3D-Printing",
+        img: printing,
     },
     {
-        eventName:"Rendering",
-        img:render,
+        eventName: "Rendering",
+        img: render,
     },
     {
-        eventName:"FEA",
-        img:fea,
+        eventName: "FEA",
+        img: fea,
     },
     {
-        eventName:"Staad-Pro",
-        img:staad,
+        eventName: "Staad-Pro",
+        img: staad,
     },
     {
-        eventName:"Revit",
-        img:revit,
+        eventName: "Revit",
+        img: revit,
     },
     {
-        eventName:"AutoCad",
-        img:auto,
+        eventName: "AutoCad",
+        img: auto,
     },
     {
-        eventName:"Canva",
-        img:canva,
+        eventName: "Canva",
+        img: canva,
     },
     {
-        eventName:"Photography",
-        img:photo,
+        eventName: "Photography",
+        img: photo,
     },
 
 ]
