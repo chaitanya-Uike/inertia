@@ -1,4 +1,4 @@
-import roborace from './photos/roboRace.jpeg'
+// import roborace from './photos/roboRace.jpeg'
 import robosoccer from './photos/robosoccer.png'
 import selfbalancing from './photos/selfbalancing.jpeg'
 import wificontrol from './photos/wificontrol.jpeg'
