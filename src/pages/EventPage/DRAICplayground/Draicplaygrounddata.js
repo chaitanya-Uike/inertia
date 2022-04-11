@@ -5,34 +5,39 @@ import roboarm from './photos/roboarm.jpeg'
 import cnc from './photos/cnc.jpeg'
 import omni from './photos/omni.jpeg'
 import sheru from './photos/sheru.jpeg'
-const data=[
+import line_follower from './photos/line_follower.jpg'
+const data = [
     {
-        eventName:"Sheru",
-        img:sheru,
+        eventName: "Line Follower",
+        img: line_follower,
     },
     {
-        eventName:"Robotic Arm",
-        img:roboarm,
+        eventName: "Sheru",
+        img: sheru,
     },
     {
-        eventName:"Self balancing",
-        img:selfbalancing,
+        eventName: "Robotic Arm",
+        img: roboarm,
     },
     {
-        eventName:"DREMEL CNC",
-        img:cnc,
+        eventName: "Self balancing",
+        img: selfbalancing,
     },
     {
-        eventName:"Wifi Controller Bot",
-        img:wificontrol,
+        eventName: "DREMEL CNC",
+        img: cnc,
     },
     {
-        eventName:"Omni Rover",
-        img:omni,
+        eventName: "Wifi Controller Bot",
+        img: wificontrol,
     },
     {
-        eventName:"Line Follower",
-        img:robosoccer,
+        eventName: "Omni Rover",
+        img: omni,
+    },
+    {
+        eventName: "Line Follower",
+        img: robosoccer,
     },
 ]
 
