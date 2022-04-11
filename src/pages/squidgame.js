@@ -1,6 +1,6 @@
 import React from 'react'
 import './squidgame.css'
-import squidgameimg from '../assets/Group2.svg'
+import squidgameimg from '../assets/Grouporange-min.png'
 function squidgame() {
     return (
         <div className="squid-game">
