@@ -9,18 +9,29 @@ import 'react-toastify/dist/ReactToastify.css';
 function Register() {
 
     const [user, setUser] = useState({ username: '', email: '', phone: '' })
+    const [btnactive,setBtnActive] = useState(false)
 
     const handleUserInput = (e) => {
         const name = e.target.name
         const value = e.target.value
 
         setUser({ ...user, [name]: value })
+        if(user.username.trim()===''){
+            // alert('Please fill all details')
+            return
+        }
+        else{
+            setBtnActive(true)
+        }
     }
 
     const notify = (msg) => toast(msg);
 
 
     const handleSubmit = async (e) => {
+
+
+        
         e.preventDefault()
         if (user.phone.length !== 10) {
             notify('invalid phone number!')
@@ -44,6 +55,7 @@ function Register() {
         notify(data.message)
 
     }
+
 
     return (
         <div>
@@ -76,7 +88,7 @@ function Register() {
                         </div>
                     </div>
                     <div>
-                        <button type='submit' className="register-btn">Submit</button>
+                        {btnactive?<button type='submit' className="register-btn" >Submit</button>:<button type='submit' className="register-btn" style={{pointerEvents:'none'}} >Submit</button>}
                     </div>
                 </form>
             </div>
