@@ -44,7 +44,7 @@ const data=[
         img:sci,
     },
     {
-        eventName:"Proteus",
+        eventName:"Multisim",
         img:pro,
     },
     {
