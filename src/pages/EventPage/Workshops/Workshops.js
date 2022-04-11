@@ -5,7 +5,7 @@ import Card from '../../../components/card copy/card'
 function Workshop() {
     return (
         <div>
-            <TitleHero title="Workshop" />
+            <TitleHero title="Workshops" />
             <div className='event-container'>
                 {data.map((card, index) => {
                     return (

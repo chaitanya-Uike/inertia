@@ -1,11 +1,11 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
-import im from '../assets/static/roboRace.jpeg'
+// import im from '../assets/static/roboRace.jpeg'
 import workshop from '../assets/events/workshop.jpg'
 import robotleague from '../assets/events/robot league1.jpg'
 import competition from '../assets/events/competition.jpg'
 import space from '../assets/events/spaceship.jpg'
-
+import draicimg from '../assets/static/draicimg.png'
 
 
 import TitleHero from '../components/titleHero'
@@ -27,7 +27,7 @@ const data = [
     },
     {
         name: "DRAIC Playground",
-        img: im,
+        img: draicimg,
         page:"draicplayground",
         description:"draicplayground"
     },
