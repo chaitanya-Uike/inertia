@@ -105,7 +105,7 @@ function LeaderBoard() {
 
                 </div> */}
 
-                <div className='leaderboard-div'>
+                {/* <div className='leaderboard-div'>
                     {
                         loading ? <Loader type="spinningBubbles" color="white" /> : <>
                             {leaderboard.length === 0 ? <h1>No Players Found</h1> : leaderboard.map((card, index) => {
@@ -126,7 +126,7 @@ function LeaderBoard() {
                             }
                             )}</>}
 
-                </div>
+                </div> */}
             </div>
 
         </>
