@@ -14,17 +14,18 @@ const Map = () => {
                 <TitleHero title="Map" />
             </div>
             <div className='map-img-div'>
-            <a
-              href={locationurl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer_location"
-            >
-              <img className='map-image' src={mp} alt=''>
-                    
-                    </img>
-            </a>
-                
+              <h3 className='map-heading'>Find Us</h3>
+            <a  href={locationurl}  target="_blank"  rel="noopener noreferrer"  className="footer_location">
+              <img className='map-image' src={mp} alt=''> 
+             </img>
+            </a> 
+            </div>
+            <div className='map-img-div'>
+              <h3 className='map-heading'>Route To Events</h3>
+            <a  href={locationurl}  target="_blank"  rel="noopener noreferrer"  className="footer_location">
+              <img className='map-image' src={mp} alt=''> 
+             </img>
+            </a> 
             </div>
         </>
     );
