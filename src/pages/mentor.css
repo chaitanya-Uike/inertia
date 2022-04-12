@@ -53,7 +53,7 @@
 
 .mentor-image.hoverimg{
     opacity: 0;
-    width:30%;
+
 }
 .squid-game-div:hover .main{
     opacity: 0;
@@ -105,6 +105,11 @@ span{
     }
     .mentor-image{
         border-radius: 10px 10px 0 0;
+        width: 75%;
+        height: 40%;
+    }
+    .hoverimg
+    {
         width: 75%;
         height: 40%;
     }
