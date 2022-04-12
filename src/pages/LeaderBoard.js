@@ -115,7 +115,9 @@ function LeaderBoard() {
 
 
                 </div>
-
+                    <div>
+                        <p className='disclaimer'> <span className='disclaimer-tag'>Note :</span> Rank will be updated in every 10 mins</p>
+                    </div>
                 <div className='leaderboard-div'>
                     {
                         loading ? <Loader type="spinningBubbles" color="white" /> : <>
