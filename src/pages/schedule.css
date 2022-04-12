@@ -14,6 +14,7 @@
 .schedule-container{
     padding: 100px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -36,6 +37,10 @@
     margin: 30px;
 }
 
+.leaderboard-info{
+    color: white;
+    padding-top: 30px;
+}
 
 .schedule-name-div{
     display: flex;
@@ -44,6 +49,10 @@
 .schedule-postition{
     margin-right: 30px;
     color: #3c5ccf;
+}
+.leaderboard-coming-soon{
+    color:#ff715b;
+    font-family: goodtimingbd;
 }
 
 .schedule-name{
@@ -60,7 +69,8 @@
 
 @media(max-width: 500px){
     .schedule-container{
-        padding:50px 0;
+        padding:50px 20px;
+        text-align: center;
     }
     .schedule-div{
         width: 90%;

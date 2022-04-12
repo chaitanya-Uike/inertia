@@ -1,7 +1,7 @@
 import React from 'react';
 import TitleHero from '../components/titleHero'
 import mp from '../assets/map.png'
-import event_map from '../assets/event_map.jpg'
+import event_map from '../assets/event_map.png'
 import './map.css'
 
 
