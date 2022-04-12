@@ -93,13 +93,13 @@ function LeaderBoard() {
                 <div className="leaderboard-select-box">
                     <div className='left-box'>
                         <div className='leaderboard-select-your-text-box'>
-                            <h2 className='leaderboard-select-your-event'>Check your events</h2>
+                            <h2 className='leaderboard-select-your-event'>Check your Rank</h2>
                         </div>
                         <div className='leaderboard-select-your-text-box'>
                             <input type="text" className='leaderboard-selection-select' name="input-username" id="input-username" placeholder="Enter name" onChange={handleUserInput} />
                         </div>
                     </div>
-                    <div className='right-box'>
+                    {/* <div className='right-box'>
                         <div className='leaderboard-select-your-text-box'>
                             <h2 className='leaderboard-select-your-event'>Select your Event</h2>
                         </div>
@@ -111,13 +111,13 @@ function LeaderBoard() {
                                 }
                             </select>
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>
-                    <div>
-                        <p className='disclaimer'> <span className='disclaimer-tag'>Note :</span> Rank will be updated in every 10 mins</p>
-                    </div>
+                <div>
+                    <p className='disclaimer'> <span className='disclaimer-tag'>Note :</span> Rank will be updated in every 10 mins</p>
+                </div>
                 <div className='leaderboard-div'>
                     {
                         loading ? <Loader type="spinningBubbles" color="white" /> : <>
