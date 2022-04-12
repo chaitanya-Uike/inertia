@@ -28,8 +28,7 @@
 }
 .leaderboard-select-box{
     display: flex;
-    align-items:right;
-    justify-content: right;
+    justify-content:space-between;
     width:70%;
     margin-bottom: 30px;
 }
@@ -85,7 +84,6 @@
     color: #FAD02C;
 }
 
-.leaderboard-points-div {}
 
 .leaderboard-your-postion-div {
     background-color: #76C773;
@@ -113,6 +111,16 @@
 .leaderboard-div .loader {
     margin: 0 auto;
 }
+.left-box{
+    display: flex;  
+    justify-content: left;
+    align-items: left;
+}
+.right-box{
+    display: flex;
+    justify-content:right;
+    align-items: right;
+}
 
 @media(max-width: 500px) {
     .leaderboard-outer-div{
@@ -126,6 +134,7 @@
     }
     .leaderboard-select-box{
         flex-direction: column;
+        width:80%;
     }
     .leaderboard-select-your-event{
         padding:0;
@@ -141,10 +150,13 @@
     .leaderboard-postition{
         margin-right:5px
     }
-    .leaderboard-name-div{
-
+    .leaderboard-selection-select{
+        width:100%;
     }
-    .leaderboard-individual-box{
-        
+    .right-box{
+        flex-direction: column;
+    }
+    .left-box{
+        flex-direction: column;
     }
 }
