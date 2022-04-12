@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 
 function LeaderBoard() {
     const [leaderboard, setLeaderboard] = useState([])
-    const [events, setEvents] = useState([])
+    // const [events, setEvents] = useState([])
     const [loading, setLoading] = useState(false)
 
     const fetchLeaderboard = async () => {
@@ -23,38 +23,38 @@ function LeaderBoard() {
         }
     }
 
-    const fetchEventsList = async () => {
-        const res = await fetch('https://inertia-api-v2.herokuapp.com/events')
-        const data = await res.json()
+    // const fetchEventsList = async () => {
+    //     const res = await fetch('https://inertia-api-v2.herokuapp.com/events')
+    //     const data = await res.json()
 
-        setEvents(data.events)
-    }
+    //     setEvents(data.events)
+    // }
 
-    const fetchEventLeaderboard = async (e) => {
-        if (e.target.value === 'All') {
-            fetchLeaderboard()
-            return
-        }
+    // const fetchEventLeaderboard = async (e) => {
+    //     if (e.target.value === 'All') {
+    //         fetchLeaderboard()
+    //         return
+    //     }
 
-        try {
-            setLoading(true)
-            const eventName = e.target.value
-            const url = `https://inertia-api-v2.herokuapp.com/${eventName}/leaderboard`
+    //     try {
+    //         setLoading(true)
+    //         const eventName = e.target.value
+    //         const url = `https://inertia-api-v2.herokuapp.com/${eventName}/leaderboard`
 
-            const res = await fetch(url)
-            const data = await res.json()
+    //         const res = await fetch(url)
+    //         const data = await res.json()
 
-            setLoading(false)
-            setLeaderboard(data.players)
-        } catch (err) {
-            setLoading(true)
-            console.log(err)
-        }
-    }
+    //         setLoading(false)
+    //         setLeaderboard(data.players)
+    //     } catch (err) {
+    //         setLoading(true)
+    //         console.log(err)
+    //     }
+    // }
 
     useEffect(() => {
         fetchLeaderboard()
-        fetchEventsList()
+        // fetchEventsList()
     }, [])
 
 
